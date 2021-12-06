@@ -7,17 +7,19 @@ menuStart=ReplyKeyboardMarkup(
 			
 
         ]
-    ]
+    ],
+    resize_keyboard=True
 )
-location=ReplyKeyboardMarkup(
+joy=ReplyKeyboardMarkup(
     keyboard=[
         [
            KeyboardButton(text='🕹 Lokatsiya yuborish', request_location=True)
 			
-
         ]
-    ]
+    ],
+    resize_keyboard=True
 )
+
 
 
 
